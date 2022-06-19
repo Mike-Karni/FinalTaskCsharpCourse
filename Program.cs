@@ -1,10 +1,11 @@
-﻿
-
-string[] array = new string[]{"123", "23", "hello", "world", "res"};
+﻿string[] array = new string[]{"123", "23", "hello", "world", "res"};
 string[] newArray = new string[array.Length];
 int newSize = 3;
+// Solution
+ArrayFiltered(array, newArray);
+PrintArray(newArray);
 
-// Main Method which 
+// Main Method 
 
 void ArrayFiltered(string[] array1, string[] array2)
 {
@@ -19,7 +20,7 @@ void ArrayFiltered(string[] array1, string[] array2)
     }
 }
 
-// Created Method Print Array
+// Created Method PrintArray
 
 void PrintArray(string[] array)
 {
@@ -29,5 +30,3 @@ void PrintArray(string[] array)
     }
     Console.WriteLine();
 }
-ArrayFiltered(array, newArray);
-PrintArray(newArray);
